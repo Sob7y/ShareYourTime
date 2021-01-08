@@ -1,0 +1,133 @@
+/* 
+  Localizable.strings
+  ShareYourTime
+
+  Created by Mohammed Khaled (Sob7y) on 1/29/19.
+  Copyright © 2019 ShareYourTime. All rights reserved.
+*/
+
+
+
+"login" = "تسسجيل الدخول";
+"facebook_login" = "تسجيل الدخول عن طريق فيس بوك";
+"register_title" = "إنشاء حساب";
+"forget_password" = "هل نسيت كلمة المرور؟";
+"phone" = "رقم التليفون";
+"name" = "الاسم";
+"email" = "البريد الالكتروني";
+"password" = "كلمة المرور";
+"confirm_password" = "تأكيد كلمة المرور";
+"have_an_account_login" = "لديك حساب, تسجيبل الدخول";
+"new_user_signup" = "ليس لديك حساب, إنشاء حساب";
+
+"gallery" = "معرض الصور";
+"camera" = "الكاميرا";
+"cancel" = "إلغاء";
+"choose" = "اختاري صورة";
+
+"create_title" = "Create";
+"create_sub_title" = "Create your own event";
+"time_title" = "Time";
+"location_title" = "Location";
+"title_name" = "Title";
+
+"time_placeholder" = "set your Time";
+"location_placeholder" = "set your Location";
+"title_placeholder" = "set title";
+"submit" = "تأكيد";
+"confirm_location" = "تأكيد الموقع";
+
+"eventTitle_is_required" = "العنوان مطلوب";
+"eventLocation_is_required" = "الموقع مطلوب";
+"eventDate_is_required" = "التاريخ مطلوب";
+"eventTime_is_required" = "الوقت مطلوب";
+"eventImages_is_required" = "من فضلك اختر الصوؤ";
+"event_days_is_required" = "من فضلك اختر الايام";
+
+// Error Messages
+"password_length_error" = "كلمة المرور يجب ان تكون اكبر من ٨ حروف";
+"email_not_right" = "صيغة البريد الاكتروني غير صحيحة";
+"password_not_match" = "كلمة المرور غير متطابقة";
+"password_is_mandatory" = "كلمة المرور مطلوبة";
+"name_is_mandatory" = "الاسم مطلوب";
+"email_is_mandatory" = "البريد الاكتروني مطلوب";
+"confirmPassword_is_mandatory" = "تكرار كلمة المرور مطلوبة";
+"image_is_mandatory" = "الصورة مطلوبه";
+"password_is_not_matched" = "كلمة المرور غير متطابقة";
+"phone_mandatory" = "رقم التليفون مطلوب";
+"whoIsOut_no_data" = "لا يوجد احداث في ذلك اليوم";
+
+
+"today_title" = "اليوم";
+"tomorrow_title" = "غدا";
+"yesterday_title" = "امس";
+
+
+"joined_people" = "Joined people";
+"join" = "Join";
+"maybe" = "Maybe";
+"byMe" = "بواسطتي";
+"by" = "بواسطة";
+
+"change_password" = "تغيير كلمة المرور";
+"edit_profile" = "تعديل الملف الشخصي";
+"notifications" = "الإشعارات";
+"contact_us" = "اتصل بنا";
+"logout" = "تسجيل الخروج";
+
+"events" = "الأحداث";
+"followers" = "المتابعين";
+"folowings" = "المتابعين";
+
+"old_password" = "كلمة المرور الحالية";
+"new_password" = "كلمة المرور الجديدة";
+"repeat_password" = "أعد ادخال كلمة المرور";
+
+"update_profile" = " تعديل الملف الشخصي";
+"change_language" = "تغيير اللغة";
+"search" = "البحث";
+"requests_list" = "قائمة الطلبات";
+"friends_list" = "قائمة الأصدقاء";
+"responed_request" = "Respond to Your {count} Friend Requests";
+"No_requests" = "لا يوجد لديك طلبات";
+"No_friends" = "لا يوجد لديك اصدقاء, ابدأ بإضافتهم";
+"yes" = "تأكيد";
+"remove_friend_msg" = "هل انت متأكد من حذف هذا الصديق";
+
+"manage_circles" = "Manage your circles";
+"create_circle" = "Create Circle";
+"create_your_own_circle" = "Create your own Circle";
+"view_all" = "الكل";
+"circle_title_is_required" = "من فضلك أدخل عنوان المجموعة";
+"please_select_your_firnds" = "من فضلك اختر من اصدقائك";
+"edit" = "تعديل";
+"add_new_users" = "أضف أصدقاء جدد";
+"done" = "انتهى";
+"view_circle" = "View Circle";
+"edit_circle" = "Edit Circle";
+"friends" = "الاصدقاء";
+"circles" = "Circles";
+
+
+"users" = "Users";
+"groups" = "Groups";
+"select" = "اختر";
+"invite_users_title" = "Invite Users";
+
+"join_us" = "انضم الينا";
+"provide_service" = "قدم خدمة";
+"category" = "الصنف";
+"your_terms" = "شروطك وأحكامك";
+"choose_category" = "اختر صنف";
+
+"trips" = "Trips";
+"top_users" = "Top Users";
+"more_entertainment ?" = "More entertainment ?";
+"popular_destinations" = "Popular Destinations";
+
+"hours" = "ساعات";
+"error" = "خطأ";
+"success" = "تم بنجاح";
+"choose_category" = "اختر صنف";
+"fill_your_terms" = "املأ شروطك";
+"book" = "احجز";

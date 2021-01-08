@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="SPCategoryCell" customModule="ShareYourTime" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YMd-YR-z2a">
+                        <rect key="frame" x="8" y="8" width="304" height="39"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VhD-CV-hMC">
+                                <rect key="frame" x="8" y="8" width="288" height="23"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="VhD-CV-hMC" firstAttribute="top" secondItem="YMd-YR-z2a" secondAttribute="top" constant="8" id="2LU-02-UhU"/>
+                            <constraint firstAttribute="trailing" secondItem="VhD-CV-hMC" secondAttribute="trailing" constant="8" id="ISl-S0-lSt"/>
+                            <constraint firstAttribute="bottom" secondItem="VhD-CV-hMC" secondAttribute="bottom" constant="8" id="W1A-yO-tuP"/>
+                            <constraint firstItem="VhD-CV-hMC" firstAttribute="leading" secondItem="YMd-YR-z2a" secondAttribute="leading" constant="8" id="nX0-L7-RAa"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="94S-wX-K4V">
+                        <rect key="frame" x="0.0" y="54" width="320" height="1"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="90c-09-f2b"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="94S-wX-K4V" secondAttribute="bottom" id="Ni7-J6-g5O"/>
+                    <constraint firstAttribute="bottom" secondItem="YMd-YR-z2a" secondAttribute="bottom" constant="8" id="RKL-hn-DgG"/>
+                    <constraint firstItem="YMd-YR-z2a" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="WkC-JA-k0j"/>
+                    <constraint firstItem="94S-wX-K4V" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="buA-hR-0iT"/>
+                    <constraint firstAttribute="trailing" secondItem="YMd-YR-z2a" secondAttribute="trailing" constant="8" id="d3i-G3-eRr"/>
+                    <constraint firstItem="YMd-YR-z2a" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="mGe-4g-ar2"/>
+                    <constraint firstAttribute="trailing" secondItem="94S-wX-K4V" secondAttribute="trailing" id="rXd-3S-mPH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="categoryNameLabel" destination="VhD-CV-hMC" id="Lfz-dc-mBt"/>
+                <outlet property="containerView" destination="YMd-YR-z2a" id="KRY-rw-m9E"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="81.361607142857139"/>
+        </tableViewCell>
+    </objects>
+</document>

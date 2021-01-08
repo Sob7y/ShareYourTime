@@ -1,0 +1,130 @@
+/* 
+  Localizable.strings
+  ShareYourTime
+
+  Created by Mohammed Khaled (Sob7y) on 1/29/19.
+  Copyright © 2019 ShareYourTime. All rights reserved.
+*/
+
+
+
+"login" = "Login";
+"facebook_login" = "Login with Facebook";
+"register_title" = "Register";
+"forget_password" = "Forget Password?";
+"phone" = "Phone";
+"name" = "Name";
+"email" = "Email";
+"password" = "Password";
+"confirm_password" = "Confirm password";
+"have_an_account_login" = "Have an account? Login";
+"new_user_signup" = "New user? sign up now";
+
+"gallery" = "Gallery";
+"camera" = "Camera";
+"cancel" = "Cancel";
+"choose" = "Choose Image";
+
+"today_title" = "Today";
+"tomorrow_title" = "Tomorrow";
+"yesterday_title" = "Yesterday";
+
+"create_title" = "Create";
+"create_sub_title" = "Create your own event";
+"time_title" = "Time";
+"location_title" = "Location";
+"title_name" = "Title";
+
+"time_placeholder" = "set your Time";
+"location_placeholder" = "set your Location";
+"title_placeholder" = "set title";
+"submit" = "Submit";
+"confirm_location" = "Confirm location";
+"eventTitle_is_required" = "Event title is required";
+"eventLocation_is_required" = "Event location is required";
+"eventDate_is_required" = "Event date is required";
+"eventTime_is_required" = "Event time is required";
+"eventImages_is_required" = "Please choose your images";
+"event_days_is_required" = "Please choose your days";
+
+// Error Messages
+"email_not_right" = "Email formate is wrong";
+"password_not_match" = "Password is not matched";
+"password_is_mandatory" = "Password field is mandatory";
+"name_is_mandatory" = "Name field is mandatory";
+"email_is_mandatory" = "email field is mandatory";
+"confirmPassword_is_mandatory" = "Confirm password field is mandatory";
+"password_length_error" = "password must be more than 8 character";
+"image_is_mandatory" = "Image is mandatory";
+"password_is_not_matched" = "Password not match";
+"phone_mandatory" = "Phone is mandatory";
+"whoIsOut_no_data" = "No events in this day";
+
+"joined_people" = "Joined people";
+"join" = "Join";
+"maybe" = "Maybe";
+"byMe" = "By Me";
+"by" = "By";
+
+"change_password" = "Change password";
+"edit_profile" = "Edit profile";
+"notifications" = "Notifications";
+"contact_us" = "Contact Us";
+"logout" = "Logout";
+
+"events" = "Events";
+"followers" = "Followers";
+"folowings" = "Folowings";
+
+"old_password" = "Old Password";
+"new_password" = "New Password";
+"repeat_password" = "Repeat Password";
+
+"update_profile" = "Update Profile";
+"change_language" = "Change Language";
+"search" = "Search";
+"requests_list" = "Requests List";
+"friends_list" = "Friends List";
+"responed_request" = "Respond to Your {count} Friend Requests";
+"No_requests" = "You don't have any requests";
+"No_friends" = "You don't have any friends, start adding them";
+"yes" = "Yes";
+"remove_friend_msg" = "Are you sure you want to remove this friend";
+
+"manage_circles" = "Manage your circles";
+"create_circle" = "Create Circle";
+"create_your_own_circle" = "Create your own Circle";
+"view_all" = "View All";
+"circle_title_is_required" = "Circle title is required";
+"please_select_your_firnds" = "Please select your firnds";
+"circles" = "Circles";
+"edit" = "Edit";
+"add_new_users" = "Add users";
+"done" = "Done";
+"view_circle" = "View Circle";
+"edit_circle" = "Edit Circle";
+"friends" = "Friends";
+"circles" = "Circles";
+
+"users" = "Users";
+"groups" = "Groups";
+"select" = "Select";
+"invite_users_title" = "Invite Users";
+
+"join_us" = "Join us";
+"provide_service" = "Provide a service?";
+"category" = "Category";
+"your_terms" = "Your Terms & Condtions";
+"choose_category" = "Choose a Category";
+
+"trips" = "Trips";
+"top_users" = "Top Users";
+"more_entertainment ?" = "More entertainment ?";
+"popular_destinations" = "Popular Destinations";
+
+"hours" = "hours";
+"error" = "Error";
+"success" = "Success";
+"choose_category" = "Please choose a category";
+"fill_your_terms" = "Please write your terms";
+"book" = "Book";

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MostBookedCell" customModule="ShareYourTime" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="235"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="235"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wKD-O6-GPL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="235"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKW-yi-95y">
+                                <rect key="frame" x="26" y="8" width="278" height="33"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="21"/>
+                                <color key="textColor" red="0.40694820879999999" green="0.41198989749999998" blue="0.58190864320000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="mAs-Bt-67r">
+                                <rect key="frame" x="26" y="53" width="294" height="160"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="pdP-dv-SH8"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="E4h-1q-Vc5">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="mAs-Bt-67r" secondAttribute="trailing" id="0kC-q5-5e9"/>
+                            <constraint firstItem="GKW-yi-95y" firstAttribute="leading" secondItem="wKD-O6-GPL" secondAttribute="leading" constant="26" id="Pie-XE-f7s"/>
+                            <constraint firstItem="GKW-yi-95y" firstAttribute="top" secondItem="wKD-O6-GPL" secondAttribute="top" constant="8" id="UbT-Sz-H7x"/>
+                            <constraint firstItem="mAs-Bt-67r" firstAttribute="top" secondItem="GKW-yi-95y" secondAttribute="bottom" constant="12" id="aeV-fu-pLv"/>
+                            <constraint firstItem="mAs-Bt-67r" firstAttribute="leading" secondItem="wKD-O6-GPL" secondAttribute="leading" constant="26" id="dvM-pM-LcQ"/>
+                            <constraint firstAttribute="trailing" secondItem="GKW-yi-95y" secondAttribute="trailing" constant="16" id="hzp-A2-mPT"/>
+                            <constraint firstAttribute="bottom" secondItem="mAs-Bt-67r" secondAttribute="bottom" constant="22" id="pZz-t5-SaV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="wKD-O6-GPL" secondAttribute="bottom" id="3My-RU-bPJ"/>
+                    <constraint firstItem="wKD-O6-GPL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="PLK-ck-mcN"/>
+                    <constraint firstAttribute="trailing" secondItem="wKD-O6-GPL" secondAttribute="trailing" id="YVg-ex-8iR"/>
+                    <constraint firstItem="wKD-O6-GPL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="m8M-IY-ZIG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="collectionView" destination="mAs-Bt-67r" id="FFS-QL-txj"/>
+                <outlet property="titleLabel" destination="GKW-yi-95y" id="o4G-a8-ddh"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="107"/>
+        </tableViewCell>
+    </objects>
+</document>
